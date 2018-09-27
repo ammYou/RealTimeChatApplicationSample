@@ -1,0 +1,738 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A309B9E905DC2203F71A268 /* Pods_RealTimeChatApplicationSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD872F47FB2259E13E515958 /* Pods_RealTimeChatApplicationSample.framework */; };
+		142E11BD215C67D40053D8C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142E11BC215C67D40053D8C1 /* AppDelegate.swift */; };
+		142E11BF215C67D40053D8C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142E11BE215C67D40053D8C1 /* ViewController.swift */; };
+		142E11C2215C67D40053D8C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 142E11C0215C67D40053D8C1 /* Main.storyboard */; };
+		142E11C4215C67DF0053D8C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 142E11C3215C67DF0053D8C1 /* Assets.xcassets */; };
+		142E11C7215C67DF0053D8C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 142E11C5215C67DF0053D8C1 /* LaunchScreen.storyboard */; };
+		142E11D2215C67DF0053D8C1 /* RealTimeChatApplicationSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142E11D1215C67DF0053D8C1 /* RealTimeChatApplicationSampleTests.swift */; };
+		142E11DD215C67DF0053D8C1 /* RealTimeChatApplicationSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142E11DC215C67DF0053D8C1 /* RealTimeChatApplicationSampleUITests.swift */; };
+		142E11EB215C68840053D8C1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 142E11EA215C68840053D8C1 /* GoogleService-Info.plist */; };
+		99B8AE43A7FBBBF26FEBA2E2 /* Pods_RealTimeChatApplicationSampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2870BC237488E8E41341217 /* Pods_RealTimeChatApplicationSampleUITests.framework */; };
+		C23710DF65FCC4D50CAEC93F /* Pods_RealTimeChatApplicationSampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF94A60A77AE4CF09D319DEF /* Pods_RealTimeChatApplicationSampleTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		142E11CE215C67DF0053D8C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 142E11B1215C67D40053D8C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 142E11B8215C67D40053D8C1;
+			remoteInfo = RealTimeChatApplicationSample;
+		};
+		142E11D9215C67DF0053D8C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 142E11B1215C67D40053D8C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 142E11B8215C67D40053D8C1;
+			remoteInfo = RealTimeChatApplicationSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05689CED9EC857DF4F67C556 /* Pods-RealTimeChatApplicationSampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealTimeChatApplicationSampleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RealTimeChatApplicationSampleUITests/Pods-RealTimeChatApplicationSampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		142E11B9215C67D40053D8C1 /* RealTimeChatApplicationSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealTimeChatApplicationSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		142E11BC215C67D40053D8C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		142E11BE215C67D40053D8C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		142E11C1215C67D40053D8C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		142E11C3215C67DF0053D8C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		142E11C6215C67DF0053D8C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		142E11C8215C67DF0053D8C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		142E11CD215C67DF0053D8C1 /* RealTimeChatApplicationSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealTimeChatApplicationSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		142E11D1215C67DF0053D8C1 /* RealTimeChatApplicationSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealTimeChatApplicationSampleTests.swift; sourceTree = "<group>"; };
+		142E11D3215C67DF0053D8C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		142E11D8215C67DF0053D8C1 /* RealTimeChatApplicationSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealTimeChatApplicationSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		142E11DC215C67DF0053D8C1 /* RealTimeChatApplicationSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealTimeChatApplicationSampleUITests.swift; sourceTree = "<group>"; };
+		142E11DE215C67DF0053D8C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		142E11EA215C68840053D8C1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		15B60EDB1CBFC93372D6D9A8 /* Pods-RealTimeChatApplicationSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealTimeChatApplicationSampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RealTimeChatApplicationSampleTests/Pods-RealTimeChatApplicationSampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		59973E3761C016F628A35BF7 /* Pods-RealTimeChatApplicationSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealTimeChatApplicationSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RealTimeChatApplicationSample/Pods-RealTimeChatApplicationSample.debug.xcconfig"; sourceTree = "<group>"; };
+		5F8F3A2DCE62D0D4FAAB3347 /* Pods-RealTimeChatApplicationSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealTimeChatApplicationSampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RealTimeChatApplicationSampleTests/Pods-RealTimeChatApplicationSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B2870BC237488E8E41341217 /* Pods_RealTimeChatApplicationSampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RealTimeChatApplicationSampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7E815EE2A1CBCB718C58203 /* Pods-RealTimeChatApplicationSampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealTimeChatApplicationSampleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RealTimeChatApplicationSampleUITests/Pods-RealTimeChatApplicationSampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EF94A60A77AE4CF09D319DEF /* Pods_RealTimeChatApplicationSampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RealTimeChatApplicationSampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD872F47FB2259E13E515958 /* Pods_RealTimeChatApplicationSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RealTimeChatApplicationSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF19368E11AEDEA9C720F7CF /* Pods-RealTimeChatApplicationSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealTimeChatApplicationSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-RealTimeChatApplicationSample/Pods-RealTimeChatApplicationSample.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		142E11B6215C67D40053D8C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A309B9E905DC2203F71A268 /* Pods_RealTimeChatApplicationSample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		142E11CA215C67DF0053D8C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C23710DF65FCC4D50CAEC93F /* Pods_RealTimeChatApplicationSampleTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		142E11D5215C67DF0053D8C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99B8AE43A7FBBBF26FEBA2E2 /* Pods_RealTimeChatApplicationSampleUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		142E11B0215C67D40053D8C1 = {
+			isa = PBXGroup;
+			children = (
+				142E11BB215C67D40053D8C1 /* RealTimeChatApplicationSample */,
+				142E11D0215C67DF0053D8C1 /* RealTimeChatApplicationSampleTests */,
+				142E11DB215C67DF0053D8C1 /* RealTimeChatApplicationSampleUITests */,
+				142E11BA215C67D40053D8C1 /* Products */,
+				C757E15585F4560590B15273 /* Pods */,
+				DB79D51598C0E9C30128E90D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		142E11BA215C67D40053D8C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				142E11B9215C67D40053D8C1 /* RealTimeChatApplicationSample.app */,
+				142E11CD215C67DF0053D8C1 /* RealTimeChatApplicationSampleTests.xctest */,
+				142E11D8215C67DF0053D8C1 /* RealTimeChatApplicationSampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		142E11BB215C67D40053D8C1 /* RealTimeChatApplicationSample */ = {
+			isa = PBXGroup;
+			children = (
+				142E11BC215C67D40053D8C1 /* AppDelegate.swift */,
+				142E11BE215C67D40053D8C1 /* ViewController.swift */,
+				142E11C0215C67D40053D8C1 /* Main.storyboard */,
+				142E11C3215C67DF0053D8C1 /* Assets.xcassets */,
+				142E11C5215C67DF0053D8C1 /* LaunchScreen.storyboard */,
+				142E11C8215C67DF0053D8C1 /* Info.plist */,
+				142E11EA215C68840053D8C1 /* GoogleService-Info.plist */,
+			);
+			path = RealTimeChatApplicationSample;
+			sourceTree = "<group>";
+		};
+		142E11D0215C67DF0053D8C1 /* RealTimeChatApplicationSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				142E11D1215C67DF0053D8C1 /* RealTimeChatApplicationSampleTests.swift */,
+				142E11D3215C67DF0053D8C1 /* Info.plist */,
+			);
+			path = RealTimeChatApplicationSampleTests;
+			sourceTree = "<group>";
+		};
+		142E11DB215C67DF0053D8C1 /* RealTimeChatApplicationSampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				142E11DC215C67DF0053D8C1 /* RealTimeChatApplicationSampleUITests.swift */,
+				142E11DE215C67DF0053D8C1 /* Info.plist */,
+			);
+			path = RealTimeChatApplicationSampleUITests;
+			sourceTree = "<group>";
+		};
+		C757E15585F4560590B15273 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				59973E3761C016F628A35BF7 /* Pods-RealTimeChatApplicationSample.debug.xcconfig */,
+				FF19368E11AEDEA9C720F7CF /* Pods-RealTimeChatApplicationSample.release.xcconfig */,
+				5F8F3A2DCE62D0D4FAAB3347 /* Pods-RealTimeChatApplicationSampleTests.debug.xcconfig */,
+				15B60EDB1CBFC93372D6D9A8 /* Pods-RealTimeChatApplicationSampleTests.release.xcconfig */,
+				05689CED9EC857DF4F67C556 /* Pods-RealTimeChatApplicationSampleUITests.debug.xcconfig */,
+				C7E815EE2A1CBCB718C58203 /* Pods-RealTimeChatApplicationSampleUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DB79D51598C0E9C30128E90D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD872F47FB2259E13E515958 /* Pods_RealTimeChatApplicationSample.framework */,
+				EF94A60A77AE4CF09D319DEF /* Pods_RealTimeChatApplicationSampleTests.framework */,
+				B2870BC237488E8E41341217 /* Pods_RealTimeChatApplicationSampleUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		142E11B8215C67D40053D8C1 /* RealTimeChatApplicationSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 142E11E1215C67DF0053D8C1 /* Build configuration list for PBXNativeTarget "RealTimeChatApplicationSample" */;
+			buildPhases = (
+				7A2CCAD8C7F93278BB66C4BD /* [CP] Check Pods Manifest.lock */,
+				142E11B5215C67D40053D8C1 /* Sources */,
+				142E11B6215C67D40053D8C1 /* Frameworks */,
+				142E11B7215C67D40053D8C1 /* Resources */,
+				5B3B988A98547C84FAB00D4C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RealTimeChatApplicationSample;
+			productName = RealTimeChatApplicationSample;
+			productReference = 142E11B9215C67D40053D8C1 /* RealTimeChatApplicationSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		142E11CC215C67DF0053D8C1 /* RealTimeChatApplicationSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 142E11E4215C67DF0053D8C1 /* Build configuration list for PBXNativeTarget "RealTimeChatApplicationSampleTests" */;
+			buildPhases = (
+				C1772743AD836991C72F7E2A /* [CP] Check Pods Manifest.lock */,
+				142E11C9215C67DF0053D8C1 /* Sources */,
+				142E11CA215C67DF0053D8C1 /* Frameworks */,
+				142E11CB215C67DF0053D8C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				142E11CF215C67DF0053D8C1 /* PBXTargetDependency */,
+			);
+			name = RealTimeChatApplicationSampleTests;
+			productName = RealTimeChatApplicationSampleTests;
+			productReference = 142E11CD215C67DF0053D8C1 /* RealTimeChatApplicationSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		142E11D7215C67DF0053D8C1 /* RealTimeChatApplicationSampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 142E11E7215C67DF0053D8C1 /* Build configuration list for PBXNativeTarget "RealTimeChatApplicationSampleUITests" */;
+			buildPhases = (
+				168A0F93C62F9AAC06B6BEE8 /* [CP] Check Pods Manifest.lock */,
+				142E11D4215C67DF0053D8C1 /* Sources */,
+				142E11D5215C67DF0053D8C1 /* Frameworks */,
+				142E11D6215C67DF0053D8C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				142E11DA215C67DF0053D8C1 /* PBXTargetDependency */,
+			);
+			name = RealTimeChatApplicationSampleUITests;
+			productName = RealTimeChatApplicationSampleUITests;
+			productReference = 142E11D8215C67DF0053D8C1 /* RealTimeChatApplicationSampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		142E11B1215C67D40053D8C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Hirayama, Tomoki";
+				TargetAttributes = {
+					142E11B8215C67D40053D8C1 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					142E11CC215C67DF0053D8C1 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 142E11B8215C67D40053D8C1;
+					};
+					142E11D7215C67DF0053D8C1 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 142E11B8215C67D40053D8C1;
+					};
+				};
+			};
+			buildConfigurationList = 142E11B4215C67D40053D8C1 /* Build configuration list for PBXProject "RealTimeChatApplicationSample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 142E11B0215C67D40053D8C1;
+			productRefGroup = 142E11BA215C67D40053D8C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				142E11B8215C67D40053D8C1 /* RealTimeChatApplicationSample */,
+				142E11CC215C67DF0053D8C1 /* RealTimeChatApplicationSampleTests */,
+				142E11D7215C67DF0053D8C1 /* RealTimeChatApplicationSampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		142E11B7215C67D40053D8C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				142E11C7215C67DF0053D8C1 /* LaunchScreen.storyboard in Resources */,
+				142E11EB215C68840053D8C1 /* GoogleService-Info.plist in Resources */,
+				142E11C4215C67DF0053D8C1 /* Assets.xcassets in Resources */,
+				142E11C2215C67D40053D8C1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		142E11CB215C67DF0053D8C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		142E11D6215C67DF0053D8C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		168A0F93C62F9AAC06B6BEE8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RealTimeChatApplicationSampleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B3B988A98547C84FAB00D4C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RealTimeChatApplicationSample/Pods-RealTimeChatApplicationSample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RealTimeChatApplicationSample/Pods-RealTimeChatApplicationSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A2CCAD8C7F93278BB66C4BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RealTimeChatApplicationSample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1772743AD836991C72F7E2A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RealTimeChatApplicationSampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		142E11B5215C67D40053D8C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				142E11BF215C67D40053D8C1 /* ViewController.swift in Sources */,
+				142E11BD215C67D40053D8C1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		142E11C9215C67DF0053D8C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				142E11D2215C67DF0053D8C1 /* RealTimeChatApplicationSampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		142E11D4215C67DF0053D8C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				142E11DD215C67DF0053D8C1 /* RealTimeChatApplicationSampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		142E11CF215C67DF0053D8C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 142E11B8215C67D40053D8C1 /* RealTimeChatApplicationSample */;
+			targetProxy = 142E11CE215C67DF0053D8C1 /* PBXContainerItemProxy */;
+		};
+		142E11DA215C67DF0053D8C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 142E11B8215C67D40053D8C1 /* RealTimeChatApplicationSample */;
+			targetProxy = 142E11D9215C67DF0053D8C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		142E11C0215C67D40053D8C1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				142E11C1215C67D40053D8C1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		142E11C5215C67DF0053D8C1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				142E11C6215C67DF0053D8C1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		142E11DF215C67DF0053D8C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		142E11E0215C67DF0053D8C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		142E11E2215C67DF0053D8C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59973E3761C016F628A35BF7 /* Pods-RealTimeChatApplicationSample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4XKKKM86RN;
+				INFOPLIST_FILE = RealTimeChatApplicationSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hira.RealTimeChatApplicationSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		142E11E3215C67DF0053D8C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF19368E11AEDEA9C720F7CF /* Pods-RealTimeChatApplicationSample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4XKKKM86RN;
+				INFOPLIST_FILE = RealTimeChatApplicationSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hira.RealTimeChatApplicationSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		142E11E5215C67DF0053D8C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F8F3A2DCE62D0D4FAAB3347 /* Pods-RealTimeChatApplicationSampleTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z6ZF6BB944;
+				INFOPLIST_FILE = RealTimeChatApplicationSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hira.RealTimeChatApplicationSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RealTimeChatApplicationSample.app/RealTimeChatApplicationSample";
+			};
+			name = Debug;
+		};
+		142E11E6215C67DF0053D8C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15B60EDB1CBFC93372D6D9A8 /* Pods-RealTimeChatApplicationSampleTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z6ZF6BB944;
+				INFOPLIST_FILE = RealTimeChatApplicationSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hira.RealTimeChatApplicationSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RealTimeChatApplicationSample.app/RealTimeChatApplicationSample";
+			};
+			name = Release;
+		};
+		142E11E8215C67DF0053D8C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05689CED9EC857DF4F67C556 /* Pods-RealTimeChatApplicationSampleUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z6ZF6BB944;
+				INFOPLIST_FILE = RealTimeChatApplicationSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hira.RealTimeChatApplicationSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RealTimeChatApplicationSample;
+			};
+			name = Debug;
+		};
+		142E11E9215C67DF0053D8C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7E815EE2A1CBCB718C58203 /* Pods-RealTimeChatApplicationSampleUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z6ZF6BB944;
+				INFOPLIST_FILE = RealTimeChatApplicationSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hira.RealTimeChatApplicationSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RealTimeChatApplicationSample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		142E11B4215C67D40053D8C1 /* Build configuration list for PBXProject "RealTimeChatApplicationSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				142E11DF215C67DF0053D8C1 /* Debug */,
+				142E11E0215C67DF0053D8C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		142E11E1215C67DF0053D8C1 /* Build configuration list for PBXNativeTarget "RealTimeChatApplicationSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				142E11E2215C67DF0053D8C1 /* Debug */,
+				142E11E3215C67DF0053D8C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		142E11E4215C67DF0053D8C1 /* Build configuration list for PBXNativeTarget "RealTimeChatApplicationSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				142E11E5215C67DF0053D8C1 /* Debug */,
+				142E11E6215C67DF0053D8C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		142E11E7215C67DF0053D8C1 /* Build configuration list for PBXNativeTarget "RealTimeChatApplicationSampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				142E11E8215C67DF0053D8C1 /* Debug */,
+				142E11E9215C67DF0053D8C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 142E11B1215C67D40053D8C1 /* Project object */;
+}
